@@ -86,3 +86,16 @@ variable "tags" {
     description = "(Required) Map of tags for the deployment"
 }
 ```
+
+# Output 
+
+| Name            | Description                                                            |
+| --------------- | ---------------------------------------------------------------------- |
+| server_name     | SQL Server name                                                        |
+| fully_qualified_domain_name | SQL Server full qualified domain name(FQDN)                |
+| administrator_login         | Administrator login id                                     |
+| administrator_login_password| Administrator login password                               |
+
+# Contribute
+
+Pull requests are welcome to evolve this module and integrate new features.
