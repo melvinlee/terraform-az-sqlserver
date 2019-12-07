@@ -19,7 +19,7 @@ resource "azurerm_sql_server" "sqlserver" {
 
 
 resource "azurerm_sql_database" "sql_database" {
-  for_each = var.databases
+  for_each = var.databases_map
 
   name                = each.value.name
   location            = var.location

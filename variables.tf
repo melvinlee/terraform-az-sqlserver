@@ -14,7 +14,8 @@ variable "location" {
   description = "(Required) Define the region where the Azure SQL Server will be created"
 }
 
-variable "databases" {
+variable "databases_map" {
+    description = "(Optional) Create one or more Azure SQL Database"
     default = {}
 }
 
