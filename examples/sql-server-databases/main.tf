@@ -4,7 +4,7 @@ module "sql" {
   name                = "sqlserver1122"
   location            = "southeastasia"
   allow_azure_service = true
-  databases = {
+  databases_map = {
     database_1 = {
       name      = "db1-1"
       collation = "SQL_LATIN1_GENERAL_CP1_CS_AS"
